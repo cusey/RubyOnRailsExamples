@@ -5,4 +5,6 @@ root 'posts#index'
 #Normal Routes
 # get <localhost:3000/about> => <controller-name#veiw-name>
 get 'about'=> 'pages#about'
+
+resources :posts
 end

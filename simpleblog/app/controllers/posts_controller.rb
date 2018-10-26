@@ -8,6 +8,7 @@ class PostsController < ApplicationController
     end
     #localhost:3000/posts/new
     def new
+         @post = Post.new
     end
     def create
         #render plain:params[:post].inspect

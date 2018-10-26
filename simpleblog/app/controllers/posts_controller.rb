@@ -14,6 +14,9 @@ class PostsController < ApplicationController
         # New page URL: 'http://localhost:3000/posts'
         #<ActionController::Parameters {"title"=>"adfasdf", "body"=>"asdffasdf"} permitted: false>
         @post = Post.new(post_params)
+         
+       @post.save
+       redirect_to @post
     end
      
     private def post_params

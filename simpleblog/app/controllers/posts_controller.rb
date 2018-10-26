@@ -10,5 +10,6 @@ class PostsController < ApplicationController
         #After clicking the submit button on the 'localhost:3000/posts/new' page
         # New page URL: 'http://localhost:3000/posts'
         #<ActionController::Parameters {"title"=>"adfasdf", "body"=>"asdffasdf"} permitted: false>
+        @post = Post.new(params[:post])
     end
 end

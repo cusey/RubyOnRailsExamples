@@ -16,8 +16,11 @@ class PostsController < ApplicationController
         #<ActionController::Parameters {"title"=>"adfasdf", "body"=>"asdffasdf"} permitted: false>
         @post = Post.new(post_params)
          
-       @post.save
-       redirect_to @post
+       if(@post.save)
+          redirect_to @post
+       else
+            render 'new'
+       end
     end
      
     private def post_params

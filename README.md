@@ -1,7 +1,6 @@
 ![CuseyHub](https://github.com/cusey/ImageForWiki/blob/master/Logos/CuseyHub_Banner_Small.jpg)
 
 # RudyOnRailsExamples
-Customers of the Jersey National Bank (JNB) can Pay Bills and Managing Payees
 
 <img 
 src="https://github.com/cusey/ImageForWiki/blob/master/Logos/Rails.PNG" 
